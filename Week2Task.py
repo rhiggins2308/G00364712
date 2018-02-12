@@ -1,6 +1,7 @@
 # Ian McLoughlin
 # A program that displays Fibonacci numbers.
 # Topic 1 Exercise
+# synced to GitHub Repository using Git
 
 def fib(n):
   """This function returns the nth Fibonacci number."""
