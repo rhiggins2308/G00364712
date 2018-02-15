@@ -29,17 +29,15 @@ print("Fibonacci number", x, "is", ans)
 # A program that displays Fibonacci numbers using people's names.
 # Topic 2 Exercise
 
-def fib(n):
-  """This function returns the nth Fibonacci number."""
-  i = 0
-  j = 1
-  n = n - 1
+i = 0
+j = 1
+n = n - 1
 
-  while n >= 0:
-    i, j = j, i + j
-    n = n - 1
+while n >= 0:
+  i, j = j, i + j
+  n = n - 1
   
-  return i
+return i
 
 name = "Higgins"
 first = name[0]
